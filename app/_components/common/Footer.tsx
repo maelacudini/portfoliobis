@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function Footer() {
   return (
     <footer className="px-[5lvw] py-[5lvh] relative bg-black">
-      <Card>
+      <Card classes="">
         <div className="flex flex-col gap-40">
           <div className="flex flex-col gap-4">
             <p className="h1">
