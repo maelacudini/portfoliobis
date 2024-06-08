@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: #e5e5e5;
+  color: #151515;
+}
+
+::-moz-selection {
+  background-color: #e5e5e5;
+  color: #151515;
+}
+
+::webkit-selection {
+  background-color: #e5e5e5;
+  color: #151515;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  color: #e5e5e5;
+  font-family: var(--font-inter);
+}
+
+h1,
+.h1 {
+  font-size: clamp(3.75rem, 1.3645rem + 7.6336vw, 6.25rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+h2,
+.h2 {
+  font-size: clamp(2.5rem, 1.3073rem + 3.8168vw, 3.75rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+h3,
+.h3 {
+  font-size: clamp(1.875rem, 1.2786rem + 1.9084vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+h4,
+.h4 {
+  font-size: clamp(1.25rem, 0.6536rem + 1.9084vw, 1.875rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+p,
+a,
+button {
+  font-size: clamp(1rem, 0.8807rem + 0.3817vw, 1.125rem);
+  font-weight: 300;
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+/*button*/
+.btn {
+  border: none;
+  background-color: #e5e5e5;
+  color: #151515;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  width: fit-content;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 1rem #ffffff25;
+  background-color: #fff;
+}
+
+.playfair {
+  font-family: var(--font-playfair);
+  font-style: italic;
+}
